@@ -4,10 +4,14 @@ import Background from "../components/Background";
 import PopupReservation from "../components/PopupReservation";
 import { getAPIClient } from "../services/axios";
 import style from "../styles/pages/Reservation.module.css";
+import Head from "next/head";
 
 export default function Reservation() {
   return (
     <div className={style.screenContainerReservation}>
+      <Head>
+        <title>Azeleb</title>
+      </Head>
       <div className={style.backgroudItem}>
         <Background />
       </div>
