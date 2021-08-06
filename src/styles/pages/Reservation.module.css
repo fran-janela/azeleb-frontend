@@ -1,0 +1,24 @@
+.screenContainerReservation {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 5% auto 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.backgroudItem {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  z-index: 0;
+}
+
+.popupItem {
+  width: 100%;
+  height: 100%;
+  grid-area: 2/2;
+  z-index: 1000;
+}
